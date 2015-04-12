@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> visuEmote </title>
+    <link rel='stylesheet' href='styles.css' />
+
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+
+    <script src="script.js"></script>
+
+
+  </head>
+
+  <body>
+    <div class="row">
+
+      <div class="col-md-6 col-md-offset-3">
+        <h1> visuEmote </h1> <hr>
+      </div>
+
+      <div class="col-md-12 col-md-offset-0" id="graph">
+      </div>
+
+      <div class="col-md-6 col-md-offset-3">
+
+        <h4> 
+          enter some text to analyze:  
+          <button id="analyzeButton" type="button" class="btn btn-primary pull-right"> analyze! </button> 
+        </h4>
+
+        <textarea id="inputText" name="content" rows=5 style="margin-top: 5px; width:100%"> </textarea>
+        <br><br>
+
+       
+        <br><br>
+
+      </div>
+
+      
+
+    </div>
+
+  </body>
+</html>
