@@ -18,7 +18,7 @@ function handler(request, response) {
 
 }
 
-var initialTextFile = "hp2_ch1.txt";
+var initialTextFile = "textfiles/hp2_ch1.txt";
 
 // Listen for incoming connections from clients
 io.sockets.on('connection', function(socket) {
